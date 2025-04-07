@@ -159,7 +159,7 @@ app.use((err, req, res, next) => {
   return res.status(errorStatus).send(errorMessage);
 });
 
-server.listen(8800, () => {
+server.listen(3000, () => {
   connect();
   console.log("Backend server is running on port 8800");
   console.log("API Docs available at http://localhost:8800/api-docs");
